@@ -1,11 +1,11 @@
 # Site settings
 author: Rachel Spiro
-title: 
+title: My Coding Marathon
 header-img: img/home-bg.png
 email: rspiro9@gmail.com
 copyright_name: Rachel Spiro
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A journey of my training to be a coder
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  rspiro9
