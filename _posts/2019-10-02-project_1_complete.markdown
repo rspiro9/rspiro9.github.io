@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Project 1 COMPLETE!"
-date:       2019-10-03 01:33:54 +0000
+date:       2019-10-02 21:33:55 -0400
 permalink:  project_1_complete
 ---
 
@@ -25,8 +25,10 @@ Code used:
 ```
 # correlation numbers:
 kch_data.corr()
+
 # Absolute value of correlations:
 Abs(kch_data.corr()) > .75
+
 # Heatmap of correlations:
 sns.heatmap(kch_data.corr(), center=0, linewidths=.5, cmap="Blues");
 ```
@@ -44,11 +46,13 @@ Code used:
 
 ```
 # Scatterplot of each variable with price
+
 fig, axes = plt.subplots(nrows=5, ncols=4, figsize=(16,20))
 for i, xcol in enumerate(['bedrooms','bathrooms','sqft_living','sqft_lot','floors','waterfront',
                          'view','condition','grade','sqft_basement','yr_built','yr_renovated',
                          'zipcode','lat','long','sqft_living15','sqft_lot15']):
     kch_data.plot(kind='scatter', x=xcol, y='price', ax=axes[i//4][i % 4], alpha=0.4, color='b')
+	
 	
 # One hot encoding for the waterfront variable
 
