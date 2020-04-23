@@ -15,6 +15,8 @@ As an example for how to use a decision tree, let's say you want to play a game 
 
 ![](https://cdn.educba.com/academy/wp-content/uploads/2019/05/weather-Decision-Tree-Algorithm.png)
 
+*Source*: https://www.educba.com/decision-tree-algorithm/
+
 Here the internal nodes are questions such as 'is it sunny, rainy, or cloudy?' or 'is there high humidity?'. The edges/branches are the answers bringing you to the next node (i.e. it is sunny or it is cloudy). And the leaf nodes are the yes and no at the bottom of the diagram telling you if you can play outside or not. So, the algorithm starts with the top question of 'is it sunny, rainy, or cloudy?' and makes a decision (a.k.a. the answer to the question). Then based off this decision, moves on to the corresponding next question. This continues until we have a final result and our data has been classified appropraitely. 
 
 **Training Decision Tree:**
