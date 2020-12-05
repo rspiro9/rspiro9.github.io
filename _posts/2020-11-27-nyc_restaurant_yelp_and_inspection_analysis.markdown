@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "NYC Restaurant Yelp and Inspection Analysis"
-date:       2020-11-27 16:33:17 +0000
+date:       2020-11-27 11:33:18 -0500
 permalink:  nyc_restaurant_yelp_and_inspection_analysis
 ---
 
@@ -153,7 +153,7 @@ I also investigated the different price levels. In relation to the Inspection Gr
 ![](https://github.com/rspiro9/NYC-Restaurant-Yelp-and-Inspection-Analysis/blob/main/Images/Grade%20Per%20Price%20Level.png?raw=truehttp://)
 
 Having a higher price ($$$$) also tends to lead to receiving a better Yelp review.
-![](https://github.com/rspiro9/NYC-Restaurant-Yelp-and-Inspection-Analysis/blob/main/Images/Price%20Per%20Rating.png?raw=truehttp://)
+![](https://github.com/rspiro9/NYC-Restaurant-Yelp-and-Inspection-Analysis/blob/main/Images/Prices%20Per%20Rating.png?raw=truehttp://)
 
 I also took a look at the Inspection Grade in relation to both the Yelp Rating and the number of Yelp Reviews. From the below chart it looks like the greatest number of reviews are typically given to restaurants in the 3.5-4.5 range. Few reviews are given for 5 star or 2 and below stars, though this is likely because few restaurants acheived these ratings. Additionally, restaurants with a 2.5 rating and a 'C' inspection grade seem to comparatively have a lot of reviews. This is likely because consumers had a bad experienceat the restaurant and want to share their bad experience with others to warn others about the restaurant. We also see some outliers specifically for restaurants with an 'A' grade, indicating that very positive expereince may help encourage consumers to write reviews.
 ![](https://github.com/rspiro9/NYC-Restaurant-Yelp-and-Inspection-Analysis/blob/main/Images/Grade%20By%20Number%20Reviews%20and%20Rating.png?raw=truehttp://)
