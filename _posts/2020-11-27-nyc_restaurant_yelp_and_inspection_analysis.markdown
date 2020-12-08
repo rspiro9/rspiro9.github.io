@@ -511,7 +511,9 @@ From this analysis, a couple of things I would recommend to current or prospecti
 * If possible, consider opening a restaurant in Midtown West or Greenwich Village as restaurants in these neighborhoods tend to receive higher Yelp ratings and higher ratings can lead to drawing in more customers. Additionally, avoid opening a restaurant in Morningside Heights as these tend to receive lower Yelp ratings. 
 * Avoid receiving a critical violation flag in an inspection as having one of these violations likely leads to lower Yelp ratings, while not having a critical violation flag likely leads to higher Yelp ratings.
 
-And with that, I have finished the analysis!
+And with that, I have finished the analysis! 
+
+For additional information, here is the link to the full analysis on GitHub: [NYC Yelp and Inspection Data Analysis](https://github.com/rspiro9/NYC-Restaurant-Yelp-and-Inspection-Analysis)
 
 **WATCHOUT NOTE:**
 One watchout I want to mention is that the data for this analysis was pulled in August 2020, during the Coronavirus pandemic. This pandemic has hit restaurants especially hard, with many restaurants temporarily or permanently closing down. It seems as though Yelp has done a descent job of identifying resturants that are open vs. closed, though I would guess that the data is not 100% accurate as restaurants' statuses were constantly changing during this time. Therefore, the dataset may include some restaurants that are no longer in business, or may have falsely excluded some restaurants that were in business.
